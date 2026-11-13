@@ -24,3 +24,23 @@ print(e.split(","))
 f = "i love you , gee"
 
 print(f.title())
+
+age =  36 
+
+txt = "My name is Holmer , I am " + str(age) 
+
+print(txt)
+
+paper = " ALL STRING METHODS RETURN NEW VALUES. THEY DO NOT CHANGE THE ORIGINAL STRING  "
+
+print(paper.strip().casefold())
+
+print(paper.strip().endswith("STRING"))
+
+x = "Hello"
+y = 15
+
+print(bool(x))
+print(bool(y))
+
+print(10 - 5 + 3)
